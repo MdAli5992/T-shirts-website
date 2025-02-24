@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-shirts of Website</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!--Navbar -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/T-shirts Website/images/my_images.jpeg" alt="Logo" style="width: 2rem; height: 2rem;" class="d-inline-block align-text-top rounded-circle border border-success">
+                T-shirts
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">New Collection</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#men">MEN'S SHIRTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#women">WOMEN'S SHIRTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#kidscollection">KIDS COLLECTION</a>
+                  </li>
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">CONATACT US</a></li>
+                    <li><a class="dropdown-item" href="#">ABOUT US </a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">ABOUT DEVELOPER</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--Hero section-->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/T-shirts Website/images/T-shart_9.jpg" class="d-block w-100" style="height: 550px;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/T-shirts Website/images/T-shart_10.jpg" class="d-block w-100" style="height: 550px;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/T-shirts Website/images/T-Shart_3.jpg" class="d-block w-100"style="height: 550px;"  alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!--Explore T-shirts -->
+    <div class=" bg-info-subtle p-2 mt-2 rounded-4 text-center"><h2 class="text-primary">Explore T-shirts</h2></div>
+    <!--group card-->
+    <div class="row  row-cols-md-12">
+    <div class="card-group mt-2">
+       
+        <div class="card">
+            <img src="/T-shirts Website/images/T-shart_7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/T-shirts Website/images/T-shart_7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/T-shirts Website/images/T-shart_7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/T-shirts Website/images/T-shart_7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+
+    <!--Collection of shirts-->
+    <div class=" bg-info-subtle p-2 mt-2 rounded-4 text-center"><h2 class="text-primary">Collection of shirts</h2></div>
+     <!--group card-->
+     <div class="row  row-cols-md-12">
+        <div class="card-group mt-2">
+            <div class="card">
+              <img src="/T-shirts Website/images/T-shart_9.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">H & G</h5>
+                <p class="card-text">This is a wider to bit longer.</p>
+                <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+                <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+                <img src="/T-shirts Website/images/T-shart_9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">H & G</h5>
+                  <p class="card-text">This is a wider to bit longer.</p>
+                  <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+                  <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/T-shirts Website/images/T-shart_9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">H & G</h5>
+                  <p class="card-text">This is a wider to bit longer.</p>
+                  <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+                  <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/T-shirts Website/images/T-shart_9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">H & G</h5>
+                  <p class="card-text">This is a wider to bit longer.</p>
+                  <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+                  <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/T-shirts Website/images/T-shart_9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">H & G</h5>
+                  <p class="card-text">This is a wider to bit longer.</p>
+                  <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+                  <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+    <!--TRENDING COLLECTION -->
+    <div class=" bg-info-subtle p-2 mt-2 rounded-4 text-center"><h2 class="text-primary">TRENDING COLLECTION</h2></div>
+   <!--group card-->
+   <div class="row  row-cols-md-12">
+    <div class="card-group mt-2">
+        
+          <div class="card">
+            <img src="/T-shirts Website/images/T-shart_8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/T-shirts Website/images/T-Shart_8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/T-shirts Website/images/T-shart_8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+
+    <!--MEN'S T-SHIRTS-->
+   <section id="men">
+    <div class=" bg-info-subtle p-2 mt-2 rounded-4 text-center"><h2 class="text-primary">MEN'S T-SHIRTS</h2></div>
+    <!--group card-->
+  <div class="row  row-cols-md-12">
+   <div class="card-group mt-2">
+      
+         <div class="card">
+           <img src="/T-shirts Website/images/T-shart_6.jpg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">H & G</h5>
+             <p class="card-text">This is a wider to bit longer.</p>
+             <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+             <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+           </div>
+           <div class="card-footer">
+             <small class="text-body-secondary">Last updated 3 mins ago</small>
+           </div>
+         </div>
+         <div class="card">
+           <img src="/T-shirts Website/images/T-shart_6.jpg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">H & G</h5>
+             <p class="card-text">This is a wider to bit longer.</p>
+             <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+             <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+           </div>
+           <div class="card-footer">
+             <small class="text-body-secondary">Last updated 3 mins ago</small>
+           </div>
+         </div>
+       
+     </div>
+   </div>
+   </section>
+
+    <!--WOMEN'S T-SHIRTS-->
+    <section id="women">
+        <div class=" bg-info-subtle p-2 mt-2 rounded-4 text-center"><h2 class="text-primary">WOMEN'S T-SHIRTS</h2></div>
+     <!--group card-->
+   <div class="row  row-cols-md-12">
+    <div class="card-group mt-2">
+        <div class="card">
+          <img src="/T-shirts Website/images/T-shart_10.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">H & G</h5>
+            <p class="card-text">This is a wider to bit longer.</p>
+            <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+            <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+            <img src="/T-shirts Website/images/T-shart_10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/T-shirts Website/images/T-shart_10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/T-shirts Website/images/T-shart_10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/T-shirts Website/images/T-shart_10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">H & G</h5>
+              <p class="card-text">This is a wider to bit longer.</p>
+              <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+              <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    </section>
+
+    <!--KIDS COLLECTION-->
+    <section id="kidscollection">
+        <div class=" bg-info-subtle p-2 mt-2 rounded-4 text-center"><h2 class="text-primary">KIDS COLLECTION</h2></div>
+    <!--group card-->
+  <div class="row  row-cols-md-12">
+   <div class="card-group mt-2">
+      
+         <div class="card">
+           <img src="/T-shirts Website/images/T-shart_3.jpg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">H & G</h5>
+             <p class="card-text">This is a wider to bit longer.</p>
+             <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+             <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+           </div>
+           <div class="card-footer">
+             <small class="text-body-secondary">Last updated 3 mins ago</small>
+           </div>
+         </div>
+         <div class="card">
+           <img src="/T-shirts Website/images/T-shart_3.jpg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">H & G</h5>
+             <p class="card-text">This is a wider to bit longer.</p>
+             <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+             <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+           </div>
+           <div class="card-footer">
+             <small class="text-body-secondary">Last updated 3 mins ago</small>
+           </div>
+         </div>
+         <div class="card">
+           <img src="/T-shirts Website/images/T-shart_3.jpg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">H & G</h5>
+             <p class="card-text">This is a wider to bit longer.</p>
+             <h6>₹299 <span class="text-decoration-line-through ms-3">₹599</span></h6>
+             <button type="button" class="btn btn-outline-secondary w-100">Add To Card</button>
+           </div>
+           <div class="card-footer">
+             <small class="text-body-secondary">Last updated 3 mins ago</small>
+           </div>
+         </div>
+       
+     </div>
+   </div>
+    </section>
+
+    <!--CONTACTS US-->
+
+    <!--ABOUT US-->
+
+    <!--ABOUT DEVELOPER-->
+    <footer class="bg-info-subtle mt-3 text-center p-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor aspernatur quae animi reiciendis facilis enim esse, error fugit praesentium iste quas nihil natus porro adipisci id illum excepturi blanditiis.</p>
+    </footer>
+    <script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
